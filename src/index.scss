@@ -1,0 +1,19 @@
+:root {
+  --maxWidth: 1280px;
+  --white: #fff;
+  --black: #000;
+  --lightGrey: #eee;
+  --medGrey: #353535;
+  --darkGrey: #1c1c1c;
+  --paleRed: #ff6b6b;
+  --fontSuperBig: 2.5rem;
+  --fontBig: 1.5rem;
+  --fontMed: 1.2rem;
+  --fonSmall: 1rem;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Abel", sans-serif;
+}
