@@ -1,0 +1,42 @@
+//style for pagination
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+  list-style-type: none;
+  align-items: center;
+
+  .page-item {
+    margin: 10px;
+    padding: 0 20px;
+    cursor: pointer;
+    font-size: var(--fontBig);
+    font-weight: 600;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: 0.3s;
+
+    &:hover {
+      border-radius: 50%;
+      background-color: rgb(37, 37, 37);
+      color: var(--white);
+    }
+
+    @media (max-width: 760px) {
+      font-size: 1rem;
+      max-width: 100px;
+      width: 25px;
+      height: 25px;
+      padding: 0 10px;
+    }
+  }
+
+  .active {
+    background-color: var(--darkGrey);
+    color: var(--white);
+  }
+}

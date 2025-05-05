@@ -1,0 +1,16 @@
+h5 {
+  margin-top: 5px;
+  font-size: 0.8rem;
+  font-weight: 100;
+}
+
+.movie-img {
+  width: 100%;
+  max-width: 720px;
+  object-fit: cover;
+  border-radius: 20px;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}

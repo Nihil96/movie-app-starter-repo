@@ -1,7 +1,7 @@
 import {
   FETCH_MOVIES_FAILURE,
-  FETCH_MOVIES_REQUEST,
   FETCH_MOVIES_SUCCESS,
+  FETCH_MOVIES_REQUEST,
 } from "../actions/movieActions";
 
 const initialState = {
@@ -24,6 +24,7 @@ export const moviesReducer = (state = initialState, action) => {
         movies: action.payload,
         error: "",
       };
+
     case FETCH_MOVIES_FAILURE:
       return {
         ...state,
@@ -31,7 +32,10 @@ export const moviesReducer = (state = initialState, action) => {
         movies: [],
         error: action.payload,
       };
+
     default:
       return state;
   }
 };
+
+export default moviesReducer;

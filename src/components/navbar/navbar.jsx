@@ -1,7 +1,7 @@
-import { Link } from "react-router-dom";
-import MovieLogo from "../../images/movie-logo.svg?react";
-import TmdbLogo from "../../images/tmdb-logo.svg?react";
-import "./navbar.scss";
+import { Link } from "react-router-dom"
+import "./Navbar.scss"
+import MovieLogo from "../../images/movie-logo.svg?react"
+import TmdbLogo from "../../images/tmdb-logo.svg?react"
 
 const Navbar = () => {
   return (
@@ -17,7 +17,7 @@ const Navbar = () => {
         </li>
       </ul>
     </nav>
-  );
-};
+  )
+}
 
-export default Navbar;
+export default Navbar
