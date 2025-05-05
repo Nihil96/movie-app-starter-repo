@@ -1,7 +1,14 @@
+import { Route, Routes } from "react-router-dom";
+import Navbar from "./components/navbar/navbar";
+import MovieList from "./pages/movieList";
+
 function App() {
   return (
     <>
-      <h1>Starter repo for the Movie App</h1>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<MovieList />} />
+      </Routes>
     </>
   );
 }
